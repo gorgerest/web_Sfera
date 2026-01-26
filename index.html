@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Базовый шаблон</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: #4a5568;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        main {
+            padding: 3rem;
+        }
+
+        .card {
+            background: #f7fafc;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            border-left: 5px solid #4299e1;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #4299e1;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .btn:hover {
+            background: #3182ce;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(66, 153, 225, 0.3);
+        }
+
+        footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Добро пожаловать!</h1>
+            <p>Базовый HTML + CSS шаблон</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <h2>Что здесь есть:</h2>
+                <ul>
+                    <li>Современный дизайн с градиентом</li>
+                    <li>Адаптивная верстка</li>
+                    <li>Карточки и кнопки</li>
+                    <li>Плавные анимации</li>
+                    <li>Семантическая разметка</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Готов к использованию</h2>
+                <p>Скопируйте код и начните разработку. Легко расширяется под ваши задачи.</p>
+                <a href="#" class="btn">Начать проект</a>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026. Базовый шаблон. Готов к доработке.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
