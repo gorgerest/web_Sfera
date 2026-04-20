@@ -15,6 +15,7 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -22,7 +23,6 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Охрана</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -41,100 +41,44 @@
                 >Главная</a
               >
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Об организации
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Общая информация</a></li>
-                <li><a class="dropdown-item" href="#">Контакты</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Новости</a></li>
-                <li><a class="dropdown-item" href="#">История</a></li>
-                <li><a class="dropdown-item" href="#">Фото галерея</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Официальные документы
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Устав</a></li>
-                <li><a class="dropdown-item" href="#">Документы</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Законодательные акты</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Обращения
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Онлайн приёмная</a></li>
-                <li><a class="dropdown-item" href="#">Формы обращения</a></li>
-                <li><a class="dropdown-item" href="#">График приема</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Деятельность организации
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Действие 1</a></li>
-                <li><a class="dropdown-item" href="#">Действие 2</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Действие 3</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Кадровая политика
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Действие 1</a></li>
-                <li><a class="dropdown-item" href="#">Действие 2</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Действие 3</a></li>
-              </ul>
-            </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Информационная безопасность</a>
+              <a class="nav-link" href="history.html">История</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!----------------------------------------------------------------------------->
+    <main class="main-content container py-5">
+      <section class="main-content__layout">
+        <img
+          src="ЧОП-removebg-preview.png"
+          alt="Сфера Охрана"
+          class="main-logo"
+        />
+        <div class="text-block">
+          <h1 class="text-block__title">Сфера Охрана</h1>
+          <p class="text-block__lead">
+            Добро пожаловать на официальный сайт организации. Здесь вы найдете
+            актуальную информацию о деятельности, нормативных документах и
+            формах взаимодействия с гражданами.
+          </p>
+          <p>
+            Основная задача организации - обеспечение безопасности, защита прав
+            и законных интересов, а также повышение качества взаимодействия с
+            населением и партнерами.
+          </p>
+        </div>
+        <aside class="contact-block" aria-label="Контактная информация">
+          <h2 class="contact-block__title">Контактная информация</h2>
+          <ul class="contact-block__list">
+            <li><strong>Телефон:</strong> +7 (000) 000-00-00</li>
+            <li><strong>Email:</strong> info@sfera-guard.ru</li>
+            <li><strong>Адрес:</strong> г. Москва, ул. Примерная, д. 10</li>
+            <li><strong>Часы приема:</strong> пн-пт, 09:00-18:00</li>
+          </ul>
+        </aside>
+      </section>
+    </main>
   </body>
 </html>
