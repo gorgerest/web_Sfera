@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^nl -ba /home/gorgerest/Documents/web_Sfera/index\\.html \\| sed -n '125,150p' && printf '\\\\n' && nl -ba /home/gorgerest/Documents/web_Sfera/style\\.css \\| sed -n '30,70p'$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
