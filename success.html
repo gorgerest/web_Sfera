@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заявка успешно отправлена | Сфера Охрана</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .success-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #f4f6f8 0%, #ffffff 100%);
+      }
+
+      .success-card {
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 60px 40px;
+        max-width: 500px;
+        text-align: center;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+      }
+
+      .success-icon {
+        font-size: 4rem;
+        color: #28a745;
+        margin-bottom: 20px;
+        animation: bounce 0.6s ease-in-out;
+      }
+
+      @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+
+      .success-card h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #1f2a36;
+        margin-bottom: 15px;
+      }
+
+      .success-card p {
+        font-size: 1.1rem;
+        color: #27303b;
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+
+      .success-card .btn-home {
+        background: linear-gradient(135deg, #1f2a36 0%, #27303b 100%);
+        color: #ffffff;
+        padding: 12px 40px;
+        border: none;
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 1rem;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        transition: all 0.3s ease;
+      }
+
+      .success-card .btn-home:hover {
+        background: linear-gradient(135deg, #27303b 0%, #1f2a36 100%);
+        color: #ffffff;
+        text-decoration: none;
+        transform: scale(1.05);
+      }
+
+      .contact-info {
+        margin-top: 40px;
+        padding-top: 30px;
+        border-top: 1px solid #e0e0e0;
+        font-size: 0.9rem;
+        color: #666;
+      }
+
+      .contact-info strong {
+        color: #1f2a36;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="success-container">
+      <div class="success-card">
+        <div class="success-icon">✓</div>
+        <h1>Заявка успешно отправлена!</h1>
+        <p>Спасибо за вашу заявку. Мы получили вашу информацию и свяжемся с вами в ближайшее время.</p>
+        
+        <a href="index.html" class="btn-home">На главную</a>
+
+        <div class="contact-info">
+          <p>Если у вас есть срочные вопросы, вы можете позвонить нам:<br>
+          <strong>+79604832108</strong></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

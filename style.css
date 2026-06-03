@@ -294,6 +294,8 @@ body.home-page {
 	font-weight: 600;
 	transition: all 0.3s ease;
 	font-size: 1rem;
+	border: none;
+	cursor: pointer;
 }
 
 .cta-button:hover {
@@ -363,4 +365,89 @@ body.home-page {
 
 .gallery-image:hover {
 	transform: scale(1.02);
+}
+
+/* Modal Styles */
+.modal {
+	z-index: 9999 !important;
+}
+
+.modal-backdrop {
+	z-index: 9998 !important;
+	opacity: 0.5;
+}
+
+.modal.show .modal-backdrop {
+	z-index: 9998 !important;
+}
+
+.modal-dialog {
+	z-index: 9999 !important;
+	pointer-events: auto !important;
+}
+
+.modal-content {
+	border-radius: 12px;
+	border: none;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+	z-index: 9999 !important;
+}
+
+.modal-content * {
+	pointer-events: auto !important;
+}
+
+.modal-header {
+	background: linear-gradient(135deg, #1f2a36 0%, #27303b 100%);
+	color: #ffffff;
+	border: none;
+	border-radius: 12px 12px 0 0;
+}
+
+.modal-header .btn-close {
+	filter: brightness(0) invert(1);
+}
+
+.modal-title {
+	font-weight: 700;
+	font-size: 1.3rem;
+}
+
+.modal-body .form-label {
+	font-weight: 600;
+	color: #1f2a36;
+	margin-bottom: 8px;
+}
+
+.modal-body .form-control {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 10px 12px;
+	font-size: 0.95rem;
+}
+
+.modal-body .form-control:focus {
+	border-color: #1f2a36;
+	box-shadow: 0 0 0 0.2rem rgba(31, 42, 54, 0.25);
+}
+
+.modal-footer {
+	border-top: 1px solid #e9ecef;
+	padding: 1.5rem;
+}
+
+.modal-footer .btn {
+	padding: 8px 24px;
+	border-radius: 6px;
+	font-weight: 600;
+}
+
+.modal-footer .btn-primary {
+	background: linear-gradient(135deg, #1f2a36 0%, #27303b 100%);
+	border: none;
+}
+
+.modal-footer .btn-primary:hover {
+	background: linear-gradient(135deg, #27303b 0%, #1f2a36 100%);
+	border: none;
 }
